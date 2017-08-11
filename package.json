@@ -1,0 +1,26 @@
+{
+  "name": "js-playground",
+  "version": "1.0.0",
+  "description": "My own playground, no you can't play with my toys, bugger off",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brokenseal/js-playground.git"
+  },
+  "keywords": [
+    "playground",
+    "javascript"
+  ],
+  "author": "Davide Callegari <davide@brokenseal.it>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brokenseal/js-playground/issues"
+  },
+  "homepage": "https://github.com/brokenseal/js-playground#readme",
+  "devDependencies": {
+    "data.task": "^3.1.1"
+  }
+}
