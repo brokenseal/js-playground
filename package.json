@@ -4,7 +4,11 @@
   "description": "My own playground, no you can't play with my toys, bugger off",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack --config=config/webpack.config.js",
+    "build": "npm run webpack",
+    "build:watch": "npm run webpack -- --watch",
+    "start": "webpack-dev-server --config=config/webpack.config.js --open"
   },
   "repository": {
     "type": "git",
@@ -21,6 +25,10 @@
   },
   "homepage": "https://github.com/brokenseal/js-playground#readme",
   "devDependencies": {
-    "data.task": "^3.1.1"
+    "data.task": "^3.1.1",
+    "jquery": "^3.2.1",
+    "synaptic": "^1.0.12",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1"
   }
 }

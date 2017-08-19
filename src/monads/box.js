@@ -38,6 +38,5 @@ const tryCatch = f => {
 }
 
 const fromNullable = x => x === null || x === undefined ? Right(x) : Left(x)
-const id = x => x
 
-module.exports = {Box, Right, Left, tryCatch, fromNullable, id}
+module.exports = {Box, Right, Left, tryCatch, fromNullable}
