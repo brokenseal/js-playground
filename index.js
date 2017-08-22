@@ -1,3 +1,4 @@
-const monadExamples = require("./src/monads/examples")
+const {train} = require("./src/neural-networks/examples")
 
-monadExamples.run()
+
+train()

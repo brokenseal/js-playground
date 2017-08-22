@@ -4,7 +4,7 @@ const distFolder = path.resolve(__dirname, '../src/neural-networks/dist')
 
 
 module.exports = {
-  entry: path.resolve(__dirname, '../src/neural-networks/examples.js'),
+  entry: path.resolve(__dirname, '../src/neural-networks/creatures.js'),
   output: {
     filename: 'bundle.js',
     path: distFolder
